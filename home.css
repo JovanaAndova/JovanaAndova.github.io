@@ -1,0 +1,357 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("376492.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+nav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #111;
+}
+
+section {
+    padding: 20px;
+}
+
+.picture-container {
+    width: 100%;
+    height: 200px;
+    background-color: #f0f0f0;
+    margin-bottom: 20px;
+}
+
+#education {
+    background-color: black;
+    color: white;
+}
+
+.timeline {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    background-color: #f0f0f0;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+}
+
+.container {
+    padding: 10px 40px;
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+}
+
+.container.left {
+    left: 0;
+}
+
+.container.right {
+    left: 50%;
+}
+
+.container::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: -17px;
+    background-color: #f0f0f0;
+    border: 4px solid #ff9f55;
+    top: 15px;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.container.right::after {
+    left: -16px;
+}
+
+.container .content {
+    padding: 20px 30px;
+    background-color: #ff9f55;
+    position: relative;
+    border-radius: 6px;
+}
+
+.container .content:hover {
+    background-color: #6d816d;
+}
+
+.blog-container {
+    width: 100%;
+    height: 400px;
+
+}
+body > nav{
+    float: right;
+    padding-left: 935px;
+}
+body > div.picture-container{
+    content: url("me.jpg");
+    width: 400px;
+    height: 478px;
+    border-radius: 350px;
+    margin-top: -135px;
+    margin-left: 10px;
+
+}
+#home{
+    margin-left: 586px;
+    color: #5e3b3b;
+    text-align: left;
+    font-size: 18px;
+    padding-top: 70px;
+    margin-right: 120px;
+}
+#home > h1{
+    font-weight: bold;
+    font-size: 30px;
+}
+#education > h1{
+    font-size: 36px;
+    font-weight: bold;
+}
+#blog {
+    text-align: center;
+}
+
+.blog-container {
+    position: relative;
+    padding: 20px;
+}
+
+.blog-entry {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    position: relative;
+}
+
+.blog-entry.left {
+    justify-content: flex-start;
+    text-align: left;
+}
+
+.blog-entry.right {
+    text-align: right;
+}
+
+.blog-entry.center {
+    justify-content: center;
+    text-align: center;
+}
+
+.picture-container {
+    width: 150px;
+    height: 150px;
+    background-color: #f0f0f0;
+    margin: 10px;
+    text-align: center;
+    /* Customize more styles as needed */
+}
+
+.text-container {
+    max-width: 300px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    text-align: center;
+    /* Customize more styles as needed */
+}
+
+.curved-line {
+    position: absolute;
+    width: 2px;
+    background-color: #333;
+    height: 100%;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+}
+
+.curved-line::before {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #333;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+}
+
+.curved-line::after {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #333;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+}
+#blog > div > div.blog-entry.right{
+    margin-left: 158px;
+}
+#blog > div > div.blog-entry.center > div.picture-container{
+    margin-left: 102px;
+}
+#blog > div.picture-container{
+    margin-left: 907px;
+    margin-top: -420px;
+    width: 357px;
+    height: 400px;
+    content: url("viena.jpg");
+}
+#blog > div.blog-container > div.blog-entry.left > div.picture-container{
+    content: url("449221993_986994106418440_165366212980823430_n.jpg");
+}
+#blog > div.blog-container > div.blog-entry.right > div.picture-container{
+    content: url("food.jpg");
+}
+#blog > div.blog-container > div.blog-entry.center > div.picture-container{
+    content: url("camp.jpg");
+}
+#hobbies {
+    text-align: center;
+}
+
+.hobbies-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.hobby-item {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}
+
+.picture-container {
+    width: 100%;
+    height: 200px;
+    background-color: #ccc;
+    margin-bottom: 10px;
+}
+
+.text-container {
+    background-color: #fff;
+    padding: 10px;
+}
+#hobbies > div > div:nth-child(1) > div.picture-container{
+    content: url("beach.webp");
+}
+#hobbies > div > div:nth-child(2) > div.picture-container{
+    content: url("painting.jpg");
+}
+#hobbies > div > div:nth-child(3) > div.picture-container{
+     content: url("books.jpg");
+ }
+#biography {
+    text-align: center;
+}
+
+.bio-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.bio-section {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    max-width: 1000px;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.bio-section.reverse {
+    flex-direction: row-reverse;
+}
+
+.picture-container {
+    width: 150px;
+    height: 150px;
+    background-color: #ccc;
+    margin: 10px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Customize more styles as needed */
+}
+
+.bio-text {
+    flex: 1;
+    padding: 20px;
+    text-align: left;
+}
+
+.bio-text h2 {
+    margin-top: 0;
+}
+
+.bio-section.reverse .bio-text {
+    text-align: right;
+}
+#biography > div > div:nth-child(1) > div.picture-container{
+    content: url("piano.jpg");
+}
+#biography > div > div:nth-child(2) > div.picture-container{
+    content: url("sloth.jpg");
+}
+#biography > div > div:nth-child(3) > div.picture-container{
+    content: url("piano.jpg");
+}
+#biography > div > div:nth-child(4) > div.picture-container{
+    content: url("sloth.jpg");
+}
+body > div.picture-container2{
+    content: url("s.jpg");
+    width: 500px;
+    margin-left: 606px;
+    margin-top: -300px;
+}
